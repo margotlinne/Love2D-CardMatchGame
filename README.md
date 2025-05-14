@@ -20,3 +20,7 @@ If it's correct then you get 50 scores, but every time you fail you lose 10 scor
 ![image](https://github.com/user-attachments/assets/bb096e08-becf-41e9-87dc-25cb1ed78818)
 ![image](https://github.com/user-attachments/assets/3917cbd4-a45d-43da-9d23-71a2e16dc6fa)
 ![image](https://github.com/user-attachments/assets/da97316b-4fa3-4d89-a59c-5bfa851aeab4)
+
+<br>
+
+#### Check play video <a href="https://www.youtube.com/watch?v=c9hruFg9UOA&list=PLVgVcpUV3wTMd91EiLjE9PvgdMCfvKSws&index=12">here</a>
