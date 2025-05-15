@@ -1,12 +1,25 @@
-## About
+# Flip The Burger
 
 ![image](https://github.com/user-attachments/assets/c0b08ebe-d456-4b73-97ae-1f4fdf22cb9f)
 
-**Flip The Burger** is simple memory match up game.  
+## About
 
+**Flip The Burger** is a casual memory-matching game where players flip two cards at a time to find matching pairs. Pressing "R" allows the game to restart. Players earn 50 points for a correct match and lose 10 points for an incorrect guess. The game is built for PC.
+
+<br>
+
+## Information
+
+- Framework: Love2D(Lua)
+- Platform: PC
+- Team Size: 1
+- Time Frame: 1 week
+  
 <br> 
 
-## How To Play
+## Introduction
+
+### How To Play
 
 Click the screen when game started, then cards will be flipped showing the images. After 3 seconds it'll flip back again, then you start clicking cards that matches one another! 
 
