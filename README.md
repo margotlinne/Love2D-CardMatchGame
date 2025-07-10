@@ -34,11 +34,13 @@
 
 ## Key Points
 
-- **카드 위치 무작위 배치**: setRandomValue() 및 setIndex()를 통해 매 판마다 카드 위치가 다름 <br> **Randomized Card Placement**: Cards are shuffled every round using custom logic
+- **카드 위치 무작위 배치 Randomized Card Placement**<br> 
+setRandomValue() 및 setIndex()를 통해 매 판마다 카드 위치가 다름 <br>
+Cards are shuffled every round using custom logic
 
-- **단순한 구조지만 완결된 흐름**: 시작 → 카드 선택 → 정답/오답 판정 → 점수 → 종료까지 자연스럽게 구성 <br> **Complete Game Loop**: From start to end with scoring and win condition
-
-- **경량 구현**: Love2D 기반으로 가볍고 빠르게 실행 가능 <br> **Lightweight Build**: Runs smoothly on most machines
+- **단순한 구조지만 완결된 흐름 Complete Game Loop**<br>
+시작 → 카드 선택 → 정답/오답 판정 → 점수 → 종료까지 자연스럽게 구성 <br>
+From start to end with scoring and win condition
 
 <br>
 
