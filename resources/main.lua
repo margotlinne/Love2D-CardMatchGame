@@ -2,20 +2,20 @@
 windowWidth = 950
 windowHeight = 600
 
+game_starts = true; -- no splash scene
 
 function love.load()  
   love.window.setMode(windowWidth, windowHeight)
 
-  splashScene = require("scene/splash")
+  --splashScene = require("scene/splash")
   gameScene = require("scene/game")
 
-  if splashScene.load ~= nil then
-    splashScene:load()
-  end
+  --if splashScene.load ~= nil then
+  --  splashScene:load()
+  --end
   if gameScene.load ~= nil then 
     gameScene:load()
   end
-
 end
 
 function love.keypressed(key)
@@ -31,9 +31,9 @@ function love.mousepressed(x, y, button)
 end
 
 function love.update(dt) 
-  if splashScene.update ~= nil and not game_starts then
-    splashScene:update(dt)
-  end
+  -- if splashScene.update ~= nil and not game_starts then
+  --   splashScene:update(dt)
+  -- end
 
   if gameScene.update ~= nil and game_starts then
     gameScene:update(dt)
@@ -43,9 +43,9 @@ function love.update(dt)
 end
 
 function love.draw()
-  if splashScene.draw ~= nil and not game_starts then
-    splashScene:draw()
-  end
+  -- if splashScene.draw ~= nil and not game_starts then
+  --   splashScene:draw()
+  -- end
 
   if gameScene.draw ~= nil and game_starts then
     gameScene:draw()
