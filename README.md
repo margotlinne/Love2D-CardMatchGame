@@ -4,7 +4,9 @@
 
 ![screenshot](https://github.com/user-attachments/assets/c46aa5e6-00f6-4f7f-9dbf-6f3bc8cf8327)
 
-#### <a href="https://www.youtube.com/watch?v=c9hruFg9UOA&list=PLVgVcpUV3wTMd91EiLjE9PvgdMCfvKSws&index=12">▶️Play Video</a>
+<a href="https://www.youtube.com/watch?v=c9hruFg9UOA&list=PLVgVcpUV3wTMd91EiLjE9PvgdMCfvKSws&index=12">▶️Play Video</a>
+
+<a href="https://margotlinne.itch.io/flip-the-burger">🎮Play Here</a>
 
 ## About
 
@@ -20,45 +22,3 @@
 - **Platform**: PC
 - **Team Size**: 1
 - **Time Frame**: 1 week
-  
-<br> 
-
-## Features
-시스템	| 설명
-:--- | :---
-🃏 카드 매칭 <br><br> Card Matching	| 16쌍의 햄버거 재료 카드 매칭. 정답 시 제거, 오답 시 다시 가림 <br><br> Match 16 pairs of burger ingredients. Correct pairs disappear; incorrect ones are flipped back.
-🖱️ 마우스 인터랙션 <br><br> Mouse Interaction |	마우스로 카드 선택 및 뒤집기 <br><br> Select and flip cards with mouse clicks
-🔊 사운드 효과 <br><br> Sound Effects	| 카드 뒤집기 시 앞면/뒷면 효과음 재생 <br><br> Sound effects on flipping cards
-🎯 점수 시스템 <br><br> Score System | 정답 시 +50점, 오답 시 -10점 <br><br> +50 points for correct match, -10 for wrong
-🕓 제한 시간 공개 <br><br> Limited Preview	 | 시작 시 모든 카드를 잠시 보여준 후 자동으로 숨김 <br><br> All cards are revealed briefly at start, then hidden
-
-<br>
-
-## Key Points
-
-- **카드 위치 무작위 배치 Randomized Card Placement**<br> 
-setRandomValue() 및 setIndex()를 통해 매 판마다 카드 위치가 다름 <br>
-Cards are shuffled every round using custom logic
-
-- **단순한 구조지만 완결된 흐름 Complete Game Loop**<br>
-시작 → 카드 선택 → 정답/오답 판정 → 점수 → 종료까지 자연스럽게 구성 <br>
-From start to end with scoring and win condition
-
-<br>
-
-## Structure
-
-```
-📂 project root
-├── main.lua             # Love2D 진입점 및 씬 전환 처리
-│                         Entry point, handles scene switching
-├── conf.lua             # 윈도우 설정
-│                         Window configuration
-│
-├── scene/
-│   ├── splash.lua       # 시작 화면 및 타이틀 효과 처리
-│                         Splash screen logic
-│   └── game.lua         # 카드 매칭 게임 전체 로직
-│                         Full game logic (match, score, flip)
-```
-<br> 
